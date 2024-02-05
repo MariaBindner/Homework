@@ -18,5 +18,5 @@ console.log(sentence);
 let greeting = "Quality, not quantity.";
 
 if (numberofToppings <= 3) {
-greeting = "Quality, not quantity.";
+  greeting = "Quality, not quantity.";
 }

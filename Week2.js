@@ -1,5 +1,5 @@
 let pizzaPlace = "Maria's Pizza";
-let numberofToppings = 3;
+let numberofToppings = 100;
 
 console.log(pizzaPlace);
 
@@ -15,10 +15,15 @@ let sentence = `Welcome to ${pizzaPlace} where we have ${numberofToppings} uniqu
 
 console.log(sentence);
 
-let greeting = "Quality, not quantity.";
-
 if (numberofToppings <= 3) {
-  greeting = "Quality, not quantity.";
+  console.log("Quality, not Quantity!");
 } else {
-  greeting = "A whole lot of pizza!";
+  console.log("A whole lot of pizza!");
 }
+
+//if (numberofToppings <= 3) {
+//  greeting = "Quality, not quantity.";
+
+// } else {greeting = "A whole lot of pizza!";
+// }
+// console.log(greeting)

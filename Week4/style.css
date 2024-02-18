@@ -1,0 +1,25 @@
+
+header {
+  color: red;
+  font-size: medium ;
+}
+
+.allParagraphStyle {
+  color: chartreuse;
+}
+
+div {
+  padding: 5px 10px 5px 10px
+}
+
+li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div p span {
+  font-stretch: expanded;
+}
+
+main div {
+  border: 2px solid;
+}

@@ -1,11 +1,12 @@
 
 header {
-  color: red;
-  font-size: medium ;
+  color: rgb(255, 0, 157);
+  font-size: x-large ;
+  font
 }
 
 .allParagraphStyle {
-  color: chartreuse;
+  color: rgb(0, 191, 255);
 }
 
 div {
@@ -14,12 +15,10 @@ div {
 
 li {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px dotted;
 }
 
-div p span {
+div, p, span {
   font-stretch: expanded;
-}
-
-main div {
-  border: 2px solid;
+  color: brown;
 }

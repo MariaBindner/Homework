@@ -20,13 +20,14 @@ greetCustomer(pizzaToppings);
 function getPizzaOrder(size, crust, ...toppings) {
   let list = "";
 
-  for(let topping of toppings) {
+  for (let topping of toppings) {
     list += `${topping}, `;
   }
 
   let output = `One ${size} ${crust} crust pizza with ${list} ... coming up!`;
 
   console.log(output);
+  return [size, crust, toppings];
 }
 getPizzaOrder("small", "thin", "mushrooms", "sausage");
 
@@ -58,13 +59,13 @@ let list = "";
 for(let topping of pizza.toppings) {
   list += `${topping}, `;
 }
-let output = `Order up! Here's your ${pizza.size} ${pizza.crust} crust pizza with ${list}... Enjoy!';
+let output = `Order up! Here's your ${pizza.size} ${pizza.crust} crust pizza with ${list}... Enjoy!`;
 
 console.log(output);
 
 return pizza;
 }
-
+servePizza(preparePizza(getPizzaOrder("medium", "thin", "hamburger", "mushroom")));
 
 //Call each function and (starting with preparePizza) use the returned value from the previous function as its input
-servePizza(preparePizza(getPizzaOrder("medium", "thin", "hamburger", "mushroom"));)
+//servePizza(preparePizza(getPizzaOrder("medium", "thin", "hamburger", "mushroom")));
